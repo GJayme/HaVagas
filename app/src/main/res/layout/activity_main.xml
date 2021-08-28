@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/nameTv"
+            android:id="@+id/nomeTv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -22,7 +22,7 @@
             android:text="@string/nomeTv" />
 
         <EditText
-            android:id="@+id/nameEt"
+            android:id="@+id/nomeEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -50,7 +50,7 @@
             android:inputType="textEmailAddress"/>
 
         <CheckBox
-            android:id="@+id/reciveUpdateCb"
+            android:id="@+id/recebeEmailCb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -67,7 +67,7 @@
             android:text="@string/telefoneTv" />
 
         <EditText
-            android:id="@+id/phoneEt"
+            android:id="@+id/telefoneEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -76,12 +76,12 @@
             android:inputType="phone"/>
 
         <RadioGroup
-            android:id="@+id/typePhoneRg"
+            android:id="@+id/tipoTelefoneRg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <RadioButton
-                android:id="@+id/comercialPhoneRb"
+                android:id="@+id/comercialRb"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -90,7 +90,7 @@
                 android:text="@string/comercialRb"
                 android:checked="true"/>
             <RadioButton
-                android:id="@+id/residencePhoneRb"
+                android:id="@+id/residencialRb"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -100,7 +100,7 @@
         </RadioGroup>
 
         <CheckBox
-            android:id="@+id/cellphoneCb"
+            android:id="@+id/celularCb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -108,7 +108,7 @@
             android:text="@string/addCelularCb"/>
 
         <LinearLayout
-            android:id="@+id/cellphoneLl"
+            android:id="@+id/celularLl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -123,7 +123,7 @@
                 android:text="@string/celularTv" />
 
             <EditText
-                android:id="@+id/cellphoneEt"
+                android:id="@+id/celularEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -142,21 +142,21 @@
             android:text="@string/sexoTv" />
 
         <RadioGroup
-            android:id="@+id/genderRg"
+            android:id="@+id/sexoRg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:layout_margin="5dp"
             android:orientation="horizontal">
             <RadioButton
-                android:id="@+id/maleRb"
+                android:id="@+id/masculinoRb"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/masculinoRb"
                 android:checked="true"/>
             <RadioButton
-                android:id="@+id/femaleRb"
+                android:id="@+id/femininoRb"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -164,7 +164,7 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/birthDateTv"
+            android:id="@+id/dataNascimentoTv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -173,7 +173,7 @@
             android:text="@string/dataNascimentoTv" />
 
         <EditText
-            android:id="@+id/editTextDate"
+            android:id="@+id/dataNascimentoEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -191,14 +191,14 @@
             android:text="@string/formacaoTv" />
 
         <Spinner
-            android:id="@+id/academicFormationSp"
+            android:id="@+id/formacaoSp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:layout_margin="5dp"/>
 
         <LinearLayout
-            android:id="@+id/fundamentalMedio"
+            android:id="@+id/fundamentalMedioLl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -282,7 +282,8 @@
             android:id="@+id/mestradoDoutoradoLl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
