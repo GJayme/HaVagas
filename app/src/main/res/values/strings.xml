@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HaVagas</string>
+    <string name="nomeTv">Nome</string>
+    <string name="emailTv">E-mail</string>
+    <string name="emailMensagemCb">Receber e-mail com atualizações de oportunidades.</string>
+    <string name="telefoneTv">Telefone</string>
+    <string name="comercialRb">Comercial</string>
+    <string name="residenciaRb">Residencial</string>
+    <string name="addCelularCb">Adicionar telefone celular</string>
+    <string name="celularTv">Celular</string>
+    <string name="sexoTv">Sexo</string>
+    <string name="masculinoRb">Masculino</string>
+    <string name="femininoRb">Feminino</string>
+    <string name="dataNascimentoTv">Data de nascimnnto</string>
+    <string name="formacaoTv">Formação academica</string>
+    <string name="anoFormaturaTv">Ano de formatura</string>
+    <string name="anoConclusaoGraduacaoEspecializacao">Ano de conclusão</string>
+    <string name="instituicaoTv">Instituição</string>
+    <string name="anoConclusaoMestradoDoutoradoTv">Ano de conclusão</string>
+    <string name="instituicaoMestradoDoutoradoTv">Instituição</string>
+    <string name="tituloMonografiaTv">Título de monografia</string>
+    <string name="orientadorTv">Orientador</string>
+    <string name="Tv">Vagas</string>
+    <string name="salvarBt">Salvar</string>
+    <string name="limparBt">Limpar</string>
+</resources>
